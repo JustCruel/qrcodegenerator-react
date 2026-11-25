@@ -27,5 +27,6 @@ const cspPlugin = () => ({
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/qrcodegenerator-react/',
   plugins: [react(), cspPlugin()],
 })
